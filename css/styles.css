@@ -76,6 +76,7 @@ header{
 .menuimage{
 
 background: green;
+	padding: 15px;
 
 
 
@@ -84,13 +85,19 @@ background: green;
 
 .menuimage a{
 	text-decoration: none;
+	
 }
 
 
 
-
-
-
+.icon-joomla,
+.icon-pencil,
+.icon-folder-open,
+.icon-make-group{
+color: #FAFAFA;
+margin: 2em;
+font-size:1.8em;
+}
 
 
 
