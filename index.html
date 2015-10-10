@@ -5,15 +5,38 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link/>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
     <link rel="stylesheet" href="https://i.icomoon.io/public/temp/030c4a29a7/UntitledProject/style.css">
+
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/cbff3a73c7/UntitledProject/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js" >
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/030c4a29a7/UntitledProject/style.css">
+</script>
+    <script type="text/javascript">
+        $(function() {
+ 
+    var btn_movil = $(".nav-mobile"),
+    menu = $(".menu").find('ul');
+ 
+    // Al dar click agregar/quitar clases que permiten el despliegue del menú
+    btn_movil.on('click', function (e) {
+        e.preventDefault();
+ 
+        var el = $(this);
+ 
+        el.toggleClass('nav-active');
+        menu.toggleClass('open-menu');
+    });
+});
+    </script>
   </head>
   <body>
     
     <header class="Header">
-      <nav>
+      <a id="logo" href=""></a>
+      <nav id="menu" class="menu"  > <a id="nav-mobile" class="nav-mobile paragraph-justify" href="#"></a>
         <ul>
           <li><a>Inicio</a></li>
           <li><a>Trabajos</a></li>
@@ -33,129 +56,59 @@
 
 
 
+<section class="contenido">
 
 
 
+  <div class="caja1">
+    <figure class="image" >
+    <img class="image" src="images/1.png" alt="">
+    </figure>
 
+    <figure class="image" >
+    <img class="image" src="images/2.png" alt="">
+    </figure>
 
+    <figure class="image" >
+    <img class="image" src="images/3.png" alt="">
+    </figure>
 
+    <figure class="image" >
+    <img class="image" src="images/4.png" alt="">
+    </figure>
+    
 
 
+    </div>
 
 
 
 
 
+<article class="cajatotal">
 
 
+  <div class="cajatitulo">
 
+    <h1 class="title">DEJA TU MARCA</h1>
 
 
+    </div>
 
 
 
 
+<div class="contentparrafo">
 
+    <p class="parrafo">Parrafo. Haz clic aqui para agregar tu propio texto y editar. Es facil haz clic en editar texto o doble clic aqui para agregar u contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber mas sobre ti.</p>
 
+</div>
 
+  </div>  
 
+</article>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
 
 
 
@@ -165,35 +118,44 @@
 
 
 <footer class="piedepagina">
-	<div>
-		<h1>MARCA REGISTRADA</h1>
-		<p>publicidad y marketing</p>
-	</div>
+
+  <div class="section1">
+    <h1>MARCA REGISTRADA</h1>
+    <p>publicidad & marketing</p>
+
+  </div>
 
 
 
-	<div>
-		<p>2023 por marca registrada creado con <a href="">Wix.com</a>
-		</p>
+  <div class="section2">
+    <p> ©2023 por marca registrada creado con 
+      <a href="">Wix.com</a>
+    </p>
 
-	</div>
+  </div>
 
 
-		<div>
+    <div class="section3">
 
-			<p>Av. Los rosales 1222801,madrid info@mistio.com</p>
+      <p>Av. Los rosales 1222801,madrid info@mistio.com</p>
 
-		</div>
+    </div>
 
-	
-		<div>
+  
+  
 
-			<p>Av. Los rosales 1222801,madrid info@mistio.com</p>
+<div class="cajasesion">
 
-		</div>
+    <p class=" icon1 , icon-google-plus2"></p>
+    <p class="icon2  , icon-facebook2"></p>
+    <p class="icon3 , icon-twitter2"></p>
 
-	<div class="icon-google-plus2 , icon-facebook2,  icon-twitter2">
-	</div>
+
+
+  </div>
+
+
+
 
 
 

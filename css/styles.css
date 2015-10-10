@@ -2,3 +2,255 @@
 	margin: 0;
 	padding: 0;
 }
+
+
+
+header{
+	background: #fff;
+	height: 60px;
+	position: relative;
+	width: 100%;
+}
+#logo{
+	background: url(../images/logo.png) no-repeat 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: block;
+	float: left;
+	margin: 6px 10px 0px;
+	width: 380px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+.menu{
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 14px;
+}
+
+.menu li{
+	display: block;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #000;
+}
+.menu li:last-child{border-bottom: 0;}
+
+.menu li a{
+	display: block;
+	color: #5A5A5A;
+	text-decoration: none;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 26px;
+}
+.menu li a:hover{
+	color: #44B800;
+}
+
+.nav-mobile{
+	display: none;
+	background: url(../images/nav.png) no-repeat center center;
+	float: right;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: .6;
+	color: #000;
+}
+
+.nav-mobile.nav-active{
+	opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+
+	.nav-mobile{ display: block;}
+	.menu{
+		width: 100%;
+		float: none;
+		padding-top: 60px;
+
+	}
+	.menu ul{
+		   box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            max-height: 0;
+            overflow: hidden;
+	}
+	.menu li{
+		background: #fff;
+		border-bottom: 1px solid #3B840E;
+		float: none;
+	}
+	.menu li:last-child{border-bottom: 0;}
+	.menu li a{
+		padding: 15px 0 ;
+		height: auto;
+		line-height: normal;
+	}
+	.menu ul.open-menu{
+		max-height: 400px;
+		transition: max-height .4s;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.caja1{
+display: inline-block;
+background: #BDBDBD;
+margin-left: 20em;
+
+
+
+}
+
+
+.image{
+
+margin: 0;
+padding: 0;
+float: left;
+margin-right: 5px;
+width: 20em;
+height: auto;
+
+}
+
+
+
+
+.caja{
+
+display: block;
+
+
+}
+
+
+
+
+
+.contenparrafo{
+	text-align: right;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1{
+
+   display: inline-block;
+   
+   margin-right: 80px;
+
+}
+
+.section2{
+   display: inline-block;
+    
+    margin-right: 80px;
+
+}
+
+.section3{
+
+   display: inline-block;
+   
+    margin-right: 80px;
+
+}
+
+.cajasesion{
+     
+     display: inline-block;
+     font-size: 20px;
+     
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon1
+{
+
+	display: inline-block;
+	
+
+}
+
+
+.icon2{
+
+	display: inline-block;
+	
+
+}
+
+
+.icon3{
+	display: inline-block;
+	
+
+}
