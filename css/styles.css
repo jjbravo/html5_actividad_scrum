@@ -178,21 +178,19 @@ display: block;
 
 
 
-
-
-
-
 .section1{
 
    display: inline-block;
-   
+   padding: 5px;
    margin-right: 80px;
+  
+
 
 }
 
 .section2{
    display: inline-block;
-    
+    padding: 5px;
     margin-right: 80px;
 
 }
@@ -200,8 +198,11 @@ display: block;
 .section3{
 
    display: inline-block;
-   
+   padding: 5px;
     margin-right: 80px;
+     width: 6em;
+    
+     overflow: hidden;
 
 }
 
@@ -215,27 +216,11 @@ display: block;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .icon1
 {
 
 	display: inline-block;
+	background: red;
 	
 
 }
@@ -244,6 +229,7 @@ display: block;
 .icon2{
 
 	display: inline-block;
+	background: blue;
 	
 
 }
@@ -251,6 +237,19 @@ display: block;
 
 .icon3{
 	display: inline-block;
+	background: aqua;
 	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
