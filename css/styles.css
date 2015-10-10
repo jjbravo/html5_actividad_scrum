@@ -71,6 +71,33 @@ header{
 	opacity: 1;
 }
 
+
+
+.menuimage{
+
+background: green;
+
+
+
+}
+
+
+.menuimage a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOVIL*/
 @media only screen and (max-width: 768px){
 
 	.nav-mobile{ display: block;}
@@ -100,6 +127,33 @@ header{
 		max-height: 400px;
 		transition: max-height .4s;
 	}
+
+
+	/*Daniel*/
+	.caja1{
+display: inline-block;
+margin-left: 1em;
+}
+.image{
+
+margin: 0;
+padding: 0;
+float: left;
+margin-right: 5px;
+width: 10em;
+height: auto;
+
+}
+
+.contentparrafo{
+	padding: 2em;
+}
+.cajatitulo{
+	padding: 2em;
+}
+
+
+
 }
 
 
@@ -109,13 +163,77 @@ header{
 
 
 
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 900px){
 
-
+.contenido{
+background: #F2F2F2;	
+}
 
 .caja1{
 display: inline-block;
-background: #BDBDBD;
+margin-left: 5em;
+
+
+
+
+}
+
+
+.image{
+
+margin: 0;
+padding: 0;
+float: left;
+margin-right: 5px;
+width: 18em;
+height: auto;
+
+}
+
+
+
+
+.cajatitulo{
+
+display: block;
+border-bottom:1px solid #BDBDBD;
+margin-left:19em;
+margin-top: 2.5em;
+}
+
+
+
+
+
+.contentparrafo{
+width: 30em;
+float: right;
+margin-right:19em;
+margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+}
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 900px) and (max-width: 2800px){
+
+.contenido{
+background: #F2F2F2;	
+}
+
+.caja1{
+display: inline-block;
 margin-left: 20em;
+
 
 
 
@@ -136,27 +254,28 @@ height: auto;
 
 
 
-.caja{
+.cajatitulo{
 
 display: block;
-
-
+border-bottom:1px solid #BDBDBD;
+margin-left:19em;
+margin-top: 2.5em;
 }
 
 
 
 
 
-.contenparrafo{
-	text-align: right;
-	display: block;
+.contentparrafo{
+width: 30em;
+float: right;
+margin-right:19em;
+margin-top: 1em;
 }
 
 
 
-
-
-
+}
 
 
 
